@@ -1,0 +1,25 @@
+name: movie_lib
+description: A new MPFlutter project.
+publish_to: "none"
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+dependencies:
+  flutter: "0.13.1"
+  flutter_web_plugins: "0.13.1"
+  mpcore: "0.13.1"
+  mp_build_tools: "0.13.1"
+  universal_miniprogram_api: ^0.0.3
+  dio: ^4.0.0
+  
+
+dependency_overrides:
+  flutter: "0.13.1"
+  mpcore: "0.13.1"
+  flutter_web_plugins: "0.13.1"
+
+
+flutter:
+  assets:
+    - assets/images/nav/
+    - assets/images/icon/
