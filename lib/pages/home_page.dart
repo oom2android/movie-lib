@@ -61,10 +61,6 @@ class _HomePageState extends State<HomePage>
   Widget build(BuildContext context) {
     return MPScaffold(
         backgroundColor: KColor.bg_color,
-        floatingBody: MPIcon(
-          MaterialIcons.search,
-          size: 24,
-        ),
         body: Column(
           children: [
             MPAppBar(

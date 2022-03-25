@@ -23,7 +23,7 @@ class _VideoPlayState extends State<VideoPlay> {
       width: MediaQuery.of(context).size.width,
       child: MPVideoView(
         controller: _controller,
-        url: 'https://v2.xw0371.com/20180401/wiyCDyE3/index.m3u8',
+        url: 'https://qq.sd-play.com/20220122/Rf3wynMs/hls/index.m3u8',
       ),
     );
   }
